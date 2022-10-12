@@ -18,8 +18,8 @@ file_upload = st.container()
 dataoutput = st.container()
 
 with header:
-    st.title('Web Transcript File Cleaner')
-    st.subheader('IBM Client Engineering')
+    st.title('IBM Client Engineering - Web Transcript File Cleaner')
+    #st.subheader('IBM Client Engineering')
 
 with file_upload:
     st.subheader('Upload Web Transcript File Here')

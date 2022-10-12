@@ -19,7 +19,7 @@ dataoutput = st.container()
 
 with header:
     st.title('Web Transcript File Cleaner')
-    st.subheading('IBM Client Engineering')
+    st.subheader('IBM Client Engineering')
 
 with file_upload:
     st.subheader('Upload Web Transcript File Here')

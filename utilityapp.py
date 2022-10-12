@@ -1,7 +1,6 @@
 #this is the script where I will try to build this utility
 import fileinput
 import streamlit as st
-from outputcleaner import clean_output
 import pandas as pd
 import webvtt
 from io import StringIO

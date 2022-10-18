@@ -17,6 +17,12 @@ header = st.container()
 file_upload = st.container()
 dataoutput = st.container()
 
+st.markdown('"" <style>
+    #MainMenu {visbility: hidden;}
+    footer {visibility: hidden;}
+    </style> """, unsafe_allow_html=True)
+  
+
 with header:
     st.title('IBM Client Engineering - Web Transcript File Cleaner')
     #st.subheader('IBM Client Engineering')

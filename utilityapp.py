@@ -49,8 +49,23 @@ with file_upload:
         'n','o','p','q','r','s','t','u','v','w','x','y','z','A','B',
         'C','D','E','F','G','H', 'I', 'J','K','L','M','N','O','P','Q','R',
         'S','T','U','V','W','X','Y','Z']
+        
+        # new code that is being tested is clumped under these comments
+      
+        currentname = ' '
+        
+        
+         
+        ## end of tested out code block
+         
         for item in newvtt:
-            if item[0] in alphabet:
+            if '"' in item:
+               sp = item.split('"')
+               name = sp[1]
+               if name != currentname:
+                  finallist.append(name)
+                  currentname = name
+            elif item[0] in alphabet:
                 finallist.append(item)
 
         finalitem = '\n'.join(finallist)

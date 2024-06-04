@@ -72,11 +72,6 @@ with file_upload:
 
         #vtt = webvtt.read(file)
 
-        #check and see if webvtt works if user inputs file path instead of file directly
-        #rd = webvtt.read_buffer(uploaded_file)
-        #vtt = uploaded_file.getvalue
-        #st.write(vtt)
-
         #removes blank lines and lines that start with numbers
 
 

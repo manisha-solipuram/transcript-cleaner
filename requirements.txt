@@ -1,4 +1,4 @@
-pandas==1.5.0
-streamlit==1.13.0
-webvtt_py==0.4.6
-altair==4.0
+pandas
+streamlit
+webvtt_py
+altair

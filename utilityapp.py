@@ -5,27 +5,18 @@ import pandas as pd
 import webvtt
 from io import StringIO
 
-#base = "light"
-#primaryColor="#001BFF"
-#backgroundColor="#FFFFFF"
-#secondaryBackgroundColor="#F0F2F6"
-#textColor="#000B62"
-#font="monospace"
-
 st.set_page_config('Transcript Cleaner')
 header = st.container()
 file_upload = st.container()
 dataoutput = st.container()
 
 st.markdown(""" <style>
-   #MainMenu {visbility: hidden;}
    footer {visibility: hidden;}
    </style> """, unsafe_allow_html=True)
   
 
 with header:
     st.title('IBM Client Engineering - Web Transcript File Cleaner')
-    #st.subheader('IBM Client Engineering')
 
 with file_upload:
     st.subheader('Upload Web Transcript File Here')
@@ -50,13 +41,8 @@ with file_upload:
         'C','D','E','F','G','H', 'I', 'J','K','L','M','N','O','P','Q','R',
         'S','T','U','V','W','X','Y','Z']
         
-        # new code that is being tested is clumped under these comments
       
         currentname = ' '
-        
-        
-         
-        ## end of tested out code block
          
         for item in newvtt:
             if '"' in item:
@@ -69,19 +55,6 @@ with file_upload:
                 finallist.append(item)
 
         finalitem = '\n'.join(finallist)
-
-        #vtt = webvtt.read(file)
-
-        #removes blank lines and lines that start with numbers
-
-
-
-        #previous = None
-        #for line in lines:
-            #if line == previous:
-                #continue
-            #transcript += line + "\n"
-            #previous = line
 
 
 with dataoutput:

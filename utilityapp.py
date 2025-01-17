@@ -1,4 +1,3 @@
-#this is the script where I will try to build this utility
 import fileinput
 import streamlit as st
 import pandas as pd
@@ -21,7 +20,6 @@ with header:
 with file_upload:
     st.subheader('Upload Web Transcript File Here')
     file = st.file_uploader("Choose a file", type='vtt')
-    transcript = ""
     finalitem = ' '
     finallist = []
     if file is not None:

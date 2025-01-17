@@ -42,7 +42,7 @@ with file_upload:
       
         currentname = ' '
          
-        for item in newvtt:
+        for item in newvtt[1:]:
             if '"' in item:
                sp = item.split('"')
                name = sp[1]

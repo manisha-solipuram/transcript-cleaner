@@ -24,27 +24,28 @@ with file_upload:
     if file is not None:
         file_details = {"FileName": file.name, "FileType": file.type,
         "FileSize": file.size}
-        st.write(file_details)
 
         vttlist = file.getvalue().decode("utf-8").split('\n')
-        newvtt = [i for i in vttlist if i]
+        newvtt = [i for i in vttlist if i if i[0] in list(string.ascii_letters)][1:]
+        print(newvtt)
 
-        currentname = ' '
+        currentname = None
         currentstring = []
         finallist = []
-        for item in newvtt[1:]:
-            if item[0] in list(string.ascii_letters):
-                item_list = item.split(': ')
-                name = item_list[0]
-                if name != currentname:
-                    finallist.append(f"{' '.join(currentstring)}\n")
-                    currentname = name
-                    currentstring = [item]
-                else:
-                    currentstring.append(f"{item_list[1]}")
 
-        finallist.append(f"{' '.join(currentstring)}\n")
-        finalitem = '\n'.join(finallist[1:])
+        for item in newvtt[1:]:
+            name, text = item.split(': ', 1)
+            if name != currentname:
+                if currentstring:
+                    finallist.append(f"{' '.join(currentstring)}\n")
+                currentname = name
+                currentstring = [item]
+            else:
+                currentstring.append(text)
+
+        if currentstring:
+            finallist.append(' '.join(currentstring))
+        finalitem = '\n'.join(finallist)
 
 
 with dataoutput:

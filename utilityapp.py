@@ -16,7 +16,7 @@ st.markdown(""" <style>
   
 
 with header:
-    st.title('IBM Client Engineering - Web Transcript File Cleaner')
+    st.title('WebVTT Transcript File Cleaner')
 
 with file_upload:
     st.subheader('Upload Web Transcript File Here')

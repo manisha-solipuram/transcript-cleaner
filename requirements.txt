@@ -1,4 +1,2 @@
-pandas
 streamlit
-webvtt_py
 

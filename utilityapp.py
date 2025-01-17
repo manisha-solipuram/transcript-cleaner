@@ -1,8 +1,5 @@
-import fileinput
 import streamlit as st
-import pandas as pd
 import string
-import webvtt
 from io import StringIO
 
 st.set_page_config('Transcript Cleaner')

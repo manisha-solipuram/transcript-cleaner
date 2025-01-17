@@ -15,7 +15,7 @@ This utility automatically cleans up raw meeting transcript data, organizing the
 <br />
 
 ### Utility Preview 
-![Screenshot 2025-01-17 at 12 55 39 PM](https://github.com/user-attachments/assets/ca48e051-e6d0-4a1c-a780-f92cd46e14af)
+![Screenshot 2025-01-17 at 12 57 40 PM](https://github.com/user-attachments/assets/7d146296-dce4-4280-96d8-7f2abb293fbc)
 
 ### Instructions to Run
 1. Clone this repository

@@ -2,7 +2,7 @@
 
 ### Overview
 
-This code cleans up a webvtt format file transcript. This works for both zoom transcript file format. The repository contains a sample file to test the utility with (sample.vtt).
+This utility automatically cleans up raw meeting transcript data, organizing the text by speaker for a more readable and polished output. This utility works specifically for the zoom meeting file transcript format. Whether you’re working with meeting notes, catching up on a missed meeting, or preparing a presentation, this tool streamlines the process, saving you time and effort. The repository also includes a sample file (sample.vtt) for easy testing and quick setup.
 
 ### Example
 

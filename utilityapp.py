@@ -1,6 +1,7 @@
 import fileinput
 import streamlit as st
 import pandas as pd
+import string
 import webvtt
 from io import StringIO
 
@@ -34,10 +35,11 @@ with file_upload:
         for i in vttlist:
             if i:
                 newvtt.append(i)
-        alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m',
-        'n','o','p','q','r','s','t','u','v','w','x','y','z','A','B',
-        'C','D','E','F','G','H', 'I', 'J','K','L','M','N','O','P','Q','R',
-        'S','T','U','V','W','X','Y','Z']
+               
+        # alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m',
+        # 'n','o','p','q','r','s','t','u','v','w','x','y','z','A','B',
+        # 'C','D','E','F','G','H', 'I', 'J','K','L','M','N','O','P','Q','R',
+        # 'S','T','U','V','W','X','Y','Z']
         
       
         currentname = ' '
@@ -49,7 +51,7 @@ with file_upload:
                if name != currentname:
                   finallist.append(name)
                   currentname = name
-            elif item[0] in alphabet:
+            elif item[0] in list(string.ascii_letters):
                 finallist.append(item)
 
         finalitem = '\n'.join(finallist)

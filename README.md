@@ -20,17 +20,17 @@ This code cleans up a webvtt format file transcript. This works for both zoom an
 python3 -m venv venv
 source venv/bin/activate
 ``` 
-4. Install dependencies
+3. Install dependencies
 ```
 pip3 install -r requirements.txt
 ``` 
 
-6. Run App
+4. Run App
 ```
 streamlit run main.py
 ``` 
 
-8. If you are getting import errors despite having all of the libraries installed, try running the app with this command instead:
+5. If you are getting import errors despite having all of the libraries installed, try running the app with this command instead:
 ```
 python3 -m streamlit run main.py
 ``` 

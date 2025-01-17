@@ -2,7 +2,7 @@
 
 ### Overview
 
-This code cleans up a webvtt format file transcript. This works for both zoom and webex downloaded transcript files. 
+This code cleans up a webvtt format file transcript. This works for both zoom and webex downloaded transcript files. The repository contains a sample file to test the utility with (sample.vtt)
 
 ### Example
 
@@ -11,8 +11,6 @@ This code cleans up a webvtt format file transcript. This works for both zoom an
 
 #### Sample File After Cleaning <br />
 <img width="261" alt="Screenshot 2025-01-17 at 9 40 15 AM" src="https://github.com/user-attachments/assets/40856106-8f9b-46d3-ab02-b8faf57eaf0c" /><br />
-
-Provided a sample text file to test the cleaner with once you have set it up in streamlit.
 
 ### Instructions to Run
 1. Clone this repository

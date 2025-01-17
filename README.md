@@ -2,7 +2,7 @@
 
 ### Overview
 
-This code cleans up a webvtt format file transcript. This works for both zoom and webex downloaded transcript files. The repository contains a sample file to test the utility with (sample.vtt)
+This code cleans up a webvtt format file transcript. This works for both zoom and webex downloaded transcript files. The repository contains a sample file to test the utility with (sample.vtt).
 
 ### Example
 

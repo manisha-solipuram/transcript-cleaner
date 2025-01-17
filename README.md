@@ -15,7 +15,7 @@ This utility automatically cleans up raw meeting transcript data, organizing the
 <br />
 
 ### Utility Preview 
-![Screenshot 2025-01-17 at 12 57 40 PM](https://github.com/user-attachments/assets/7d146296-dce4-4280-96d8-7f2abb293fbc)
+![Screenshot 2025-01-17 at 1 00 22 PM](https://github.com/user-attachments/assets/81ffddf2-1557-424d-83d0-e0af2e601bce)
 
 ### Instructions to Run
 1. Clone this repository
@@ -30,7 +30,7 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ``` 
 
-4. Run App
+4. Run the app
 ```
 streamlit run utilityapp.py
 ``` 

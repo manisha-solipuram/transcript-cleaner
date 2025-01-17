@@ -2,15 +2,17 @@
 
 ### Overview
 
-This code cleans up a webvtt format file transcript. This works for both zoom and webex downloaded transcript files. The repository contains a sample file to test the utility with (sample.vtt).
+This code cleans up a webvtt format file transcript. This works for both zoom transcript file format. The repository contains a sample file to test the utility with (sample.vtt).
 
 ### Example
 
 #### Sample File <br />
-<img width="258" alt="Screenshot 2025-01-17 at 9 39 15 AM" src="https://github.com/user-attachments/assets/6414a23b-45ff-4523-bffd-aa23e7702c43" /> <br />
+<img width="645" alt="Screenshot 2025-01-17 at 12 44 44 PM" src="https://github.com/user-attachments/assets/0ff99397-4530-4bd9-a78c-32c75820b9e3" />
+<br />
 
 #### Sample File After Cleaning <br />
-<img width="261" alt="Screenshot 2025-01-17 at 9 40 15 AM" src="https://github.com/user-attachments/assets/40856106-8f9b-46d3-ab02-b8faf57eaf0c" /><br />
+<img width="645" alt="Screenshot 2025-01-17 at 12 45 11 PM" src="https://github.com/user-attachments/assets/e6ce92ee-b4d1-454e-bb1a-6cce7b2f01cb" />
+<br />
 
 ### Instructions to Run
 1. Clone this repository
@@ -27,7 +29,7 @@ pip3 install -r requirements.txt
 
 4. Run App
 ```
-streamlit run main.py
+streamlit run utilityapp.py
 ``` 
 
 5. If you are getting import errors despite having all of the libraries installed, try running the app with this command instead:

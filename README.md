@@ -6,7 +6,7 @@ This utility automatically cleans up raw meeting transcript data, organizing the
 
 ### Example
 
-#### Sample File <br />
+#### Sample Zoom Transcript File <br />
 <img width="645" alt="Screenshot 2025-01-17 at 12 44 44 PM" src="https://github.com/user-attachments/assets/0ff99397-4530-4bd9-a78c-32c75820b9e3" />
 <br />
 

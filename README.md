@@ -34,5 +34,3 @@ streamlit run main.py
 ```
 python3 -m streamlit run main.py
 ``` 
-
-For instructions to deploy this - follow this. 

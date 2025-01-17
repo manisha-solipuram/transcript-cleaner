@@ -4,7 +4,7 @@
 
 This code cleans up a webvtt format file transcript. This works for both zoom and webex downloaded transcript files. 
 
-Provided sample file: 
+### Example
 
 **Sample File** <br /> <br />
 <img width="258" alt="Screenshot 2025-01-17 at 9 39 15 AM" src="https://github.com/user-attachments/assets/6414a23b-45ff-4523-bffd-aa23e7702c43" /> <br />

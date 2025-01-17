@@ -29,19 +29,14 @@ with file_upload:
         st.write(file_details)
         vtt = file.getvalue()
         vtt = vtt.decode("utf-8")
-        vttlist = []
+        # vttlist = []
         newvtt = []
         vttlist = vtt.split('\n')
-        for i in vttlist:
-            if i:
-                newvtt.append(i)
-               
-        # alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m',
-        # 'n','o','p','q','r','s','t','u','v','w','x','y','z','A','B',
-        # 'C','D','E','F','G','H', 'I', 'J','K','L','M','N','O','P','Q','R',
-        # 'S','T','U','V','W','X','Y','Z']
-        
-      
+        newvtt = [i for i in vttlist if i]
+        # for i in vttlist:
+        #     if i:
+        #         newvtt.append(i)
+
         currentname = ' '
          
         for item in newvtt[1:]:

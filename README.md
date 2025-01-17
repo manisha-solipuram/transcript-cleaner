@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 
 4. Run App
 ```
-streamlit run main.py
+streamlit run utilityapp.py
 ``` 
 
 5. If you are getting import errors despite having all of the libraries installed, try running the app with this command instead:
